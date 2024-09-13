@@ -4,75 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula 10 - Titulos &lt; h &gt;</title>
+    <link rel="shortcut icon" href="./favicon-32x32.png">
+    <title>Aula CSW - 10</title>
 </head>
 <body>
-    <center><h1>Sumário</h1></center>
+    <h1>Forma x Semântica</h1>
     <br>
-    <h1>4 FERRAMENTAS TI UTILIZADAS NA BIBLIOTECA ANA BOVE</h1>
+    <h2>Negrito vs Destaque</h2>
     <br>
-    <h2>4.1 Sobre a Biblioteca Ana Bove e sua instituição mantenedora............</h2>
+    <p><b>Lorem ipsum dolor sit amet.</b></p>
     <br>
-    <h3>4.1.1 O Imip..................................................................................................................................</h3>
+    <p><strong>Lorem ipsum dolor sit amet.</strong></p>
     <br>
-    <h3>4.1.2 A Biblioteca Ana Bove.........................................................................................................</h3>
+    <h2>Itálico x Ênfase</h2>
     <br>
-    <h2>4.2 Diagnóstico tecnológico da Biblioteca Ana Bove................................</h2>
-    <br>
-    <h3>4.2.1 Catálogo automático............................................................................................................</h3>
-    <br>
-    <h3>4.2.2 Repositório institucional......................................................................................................</h3>
-    <br>
-    <h3>4.2.3 Portal e/ou base de dados de informação cientifíca...........................................................</h3>
-    <br>
-    <h4>4.2.4 Website (site)....................................................................................................................................................</h4>
-    <br>
-    <h5>4.2.5 Redes sociais..........................................................................................................................................................................................</h5>
-    <br>
-    <h6>4.2.6 Outras ferramentas...................................................................................................................................................................................................................................</h6>
-    <br>
-    <h2>5 CONCLUSÕES</h2>
-    <br>
-    <h2>REFERÊNCIAS</h2>
-    <br>
-    <hr>
-    <br>
-    <p>Vamos usar um <u><b>exemplo</b></u>, claro de forma e semântica.</p>
-    <br>
-    <p>O professor Fabrício é um cara legal, ele nasceu <u>R. José Romério Duque, 185 - Mantena. MG, 35290-000</u> no hospital Evangélico, e ainda criança veio morar na <u>rua Santa Luzia, 323 - Serra, ES.</u></p>
-    <br>
-    <p>O professor Fabrício é um cara legal, ele nasceu <address>R. José Romério Duque, 185 - Mantena. MG, 35290-000</address> no hospital Evangélico, e ainda criança veio morar na <address>rua Santa Luzia, 323 - Serra, ES.</address></p>
-    <br>
-    <hr>
-    <br>
-    <pre>
-        <code>
-            def celsius_para_fahrenheit(celsius):
-    """Converte uma temperatura de Celsius para Fahrenheit."""
-    fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
-
-# Solicita ao usuário a temperatura em Celsius
-temperatura_celsius = float(input("Digite a temperatura em Celsius: "))
-
-# Converte a temperatura para Fahrenheit
-temperatura_fahrenheit = celsius_para_fahrenheit(temperatura_celsius)
-
-# Exibe o resultado
-print(f"A temperatura em Fahrenheit é: {temperatura_fahrenheit:.2f}")
-
-        </code>
-    </pre>
-    <br>
-    <hr>
-    <br>
-    <h1>Demonstração de Semântica x Formas</h1>
-    <br>
-    <p>Itálico</p>
     <p><i>Lorem ipsum dolor sit amet.</i></p>
-    <br>X
-    <p>Destaque</p>
-    <p><mark>Lorem ipsum dolor sit amet.</mark></p>
     <br>
+    <p><em>Lorem ipsum dolor sit amet.</em></p>
+    <br>
+    <h2>Texto marcado</h2>
+    <br>
+    <p><mark style="background: green;"> Lorem ipsum dolor sit amet. </mark></p>
+    <br>
+    <p><mark style="background: red;"> Lorem ipsum dolor sit amet. </mark></p>
+    <br>
+    <h2>Texto deletado x Texto riscado</h2>
+    <br>
+    <p><striker>Lorem ipsum dolor sit amet.</striker></p>
+    <br>
+    <p><del>Lorem ipsum dolor sit amet.</del></p>
+    <br>
+    <h2>Grande e Pequeno</h2>
+    <br>
+    <p><big>Lorem ipsum dolor sit amet.</big></p>
+    <br>
+    <p><small>Lorem ipsum dolor sit amet.</small></p>
+    <br>
+    <h2>Texto inserido x Sublinhado</h2>
+    <br>
+    <p><u>Lorem ipsum dolor sit amet.</u></p>
+    <br>
+    <p><ins>Lorem ipsum dolor sit amet.</ins></p>
+    <br>
+    <h2>Texto sobrescrito</h2>
+    <br>
+    <p><sup>Lorem ipsum dolor sit amet.</sup></p>
+    <br>
+    <h2>Texto subscrito</h2>
+    <br>
+    <p><sub>Lorem ipsum dolor sit amet.</sub></p>
+    <br>
+    <h2>Trecho de código</h2>
+    <br>
+    <p>
+        <pre>
+            <code>
+                Lorem ipsum dolor sit amet.
+            </code>
+        </pre>
+    </p>
+    <br>
+    <h2>Endereço</h2>
+    <br>
+    <p><address>Lorem ipsum dolor sit amet.</address></p>
+    <br>
+    <h2>Code</h2>
+    <br>
+    <p><code>Lorem ipsum dolor sit amet.</code></p>
+    <br>
+    <h2>Citações</h2>
+    <br>
+    <p><blockquote><cite>Lorem ipsum dolor sit amet.</cite></blockquote></p>
+    <br>
+    <h2>Abreviações</h2>
+    <br>
+    <p><abbr title="Lorem ipsum dolor sit amet">lorem5</abbr></p>
+    <br>
+    <hr>
+    <br>
+    <h1><b>Lista ordenada</b></h1>
+    <br>
+    <ol type="A" start="1">
+        <!-- <li> ISSO É UM COMENTÁRIO E ELE NÃO APARECE NO SITE! </li> -->
+        <li>Malhar na academia</li>
+        <li>Trabalhar</li>
+        <li>Almoçar</li>
+        <li>Ir para a faculdade</li>
+        <li>Dormir</li>
+        <li>Café</li>
+        <br>
+    </ol>
+    <br>
+    <h1>Lista não ordenada</h1>
+    <br>
+    <ul type="cicle">
+        <li>Malhar na academia</li>
+        <li>Trabalhar</li>
+        <li>Almoçar</li>
+        <li>Ir para a faculdade</li>
+        <li>Dormir</li>
+        <li>Café</li>
+    </ul>
+    <br>
+    <h1>Lista definição</h1>
+    <!-- dl - Apresenta o símbolo; dd - Apresenta o significado do símbolo -->
+    <br>
+    <dl>Kg</dl>
+    <dd>Kilograma</dd>
+    <br>
+    <dl>M²</dl>
+    <dd>Metro quadrado</dd>
+    <br>
+    <dl>cm</dl>
+    <dd>Centímetro</dd>
+    <br>
+    <hr>
+    <p>by Pedro Henrique &reg;</p>
+    <p>UVV &copy;</p>
 </body>
 </html>
