@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    font-style: italic;
+    text-align: center;
+}
+
+#título_principal {
+    color: blue;
+    text-align: center;
+}
+
+.esquerda {
+    color: salmon;
+    text-align: right;
+}
+
+.direita {
+    color: aquamarine;
+    text-align: left;
+}
+
+.div1 {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.div2 {
+
+}

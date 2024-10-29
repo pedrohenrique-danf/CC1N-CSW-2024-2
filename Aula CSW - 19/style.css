@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#título1 {
+    color: blue;
+    text-align: center;
+}
+
+.título2 {
+    color: aquamarine;
+    text-align: left;
+}
+
+.subtítulo_dir {
+    text-align: right;
+    color: aquamarine;
+}
+
+.subtítulo_esq {
+    text-align: left;
+    color: aquamarine;
+}
