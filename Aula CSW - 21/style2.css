@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: salmon;
+    border: 1px solid black;
+}
+
+.item3 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: salmon;
+    border: 1px solid black;
+}
+
+.item:hover {
+    background-color: greenyellow;
+}
+
+.item3:hover {
+    background-color: greenyellow;
+}
+
+.item:active {
+    background-color: brown;
+    text-decoration: underline;
+}
+
+.item3:active {
+    background-color: brown;
+    text-decoration: underline;
+}
