@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula CSW - 24</title>
+    <script src="Java"></script>
+</head>
+<body>
+    <script type="text/JavaScript">
+        document.writeln("Olá, meu código JavaScript! Usando o Document Writeln ")
+        window.alert("Isso serve para dar um alerta! ")
+    </script>
+    <h1>Olá Mundo, JavaScript</h1>
+    <p></p>
+    <script type="text/JavaScript">
+        document.writeln("Olá, meu código JavaScript! Usando o Document Writeln pela segunda vez ")
+    </script>
+    <p></p>
+    <div id='resposta'> </div>
+    <script>
+    document.getElementById('resposta').innerHTML= 'Resposta de saída: Olá Mundo.'
+    </script>
+    <br>
+    <script type="text/JavaScript">
+        window.confirm("Está gostando da JS?")
+    </script>
+        <script type="text/JavaScript">
+            function enviaResposta() {
+            var IU = document.getElementById('Nome','Sobrenome').value; 
+            window.alert('Foi digitado: ' Nome + Sobrenome); 
+            }
+        </script>
+        <label for="Nome">Nome:</label> 
+        <input id="Nome" size="60" placeholder="Digite seu nome">
+        <br><br>
+        <label for="Sobrenome">Sobrenome:</label> 
+        <input id="Sobrenome" size="60" placeholder="Digite seu sobrenome"> <button onclick="enviaResposta()">Enviar</button>
+</body>
+</html>
